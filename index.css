@@ -5,6 +5,7 @@ html {
 }
 body {
   margin-top: 0px;
+  background-color: #000000dc !important;
 }
 .header-content-inner{
   margin-top: 100px;
@@ -263,6 +264,9 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+.number{
+  color: #A020F0;
+}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -271,6 +275,8 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  font-size: 3rem;
+  color: #A020F0 !important;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1292,6 +1298,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+  color: #A020F0 !important;
 }
 @media (min-width: 768px) {
   .lead {
@@ -1335,7 +1342,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: #A020F0;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -3487,6 +3494,7 @@ fieldset[disabled] .btn-link:focus {
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px;
+  background-color: #A020F0;
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -4322,6 +4330,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  color: #A020F0 !important;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4564,7 +4573,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -6794,4 +6802,23 @@ button.close {
     display: none;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+#siteNav{
+  background-color: black !important;
+}
+
+.nav-item{
+  color: #A020F0 !important;
+  background-color: black;
+}
+
+#president{
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  padding-left:100px;
+  color: #A020F0;
+}
+
+.section-header, .section-heading, h1{
+  color: white;
+}
