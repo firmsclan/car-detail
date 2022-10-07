@@ -13,6 +13,7 @@ ul.nav {
 ul.nav li {
     border-right:1px solid #ffff; /* you can change the border color matching to your background color */
     float:left;
+    padding-left: 10px;
 }
 ul.nav a {
     display:block;
