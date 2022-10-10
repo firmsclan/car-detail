@@ -6822,3 +6822,10 @@ button.close {
 .section-header, .section-heading, h1{
   color: white;
 }
+
+.br{
+  color: #A020F0;
+}
+.container{
+  text-align: center;
+}
